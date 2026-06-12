@@ -163,10 +163,10 @@ const Footer = () => {
             </div>
             <div className="text-center md:text-right">
               <div className="text-gray-400 text-sm mb-2">
-                © 2026 JobPortal. All rights reserved.
+                © {new Date().getFullYear()} JobPortal. All rights reserved.
               </div>
               <div className="text-xs text-gray-500">
-                Made with ❤️ for job seekers worldwide
+                Made with ❤️ for job seekers and employers worldwide
               </div>
             </div>
           </div>
